@@ -11,19 +11,13 @@ import org.example.Pago.CalculadoraPago;
 import org.example.Pago.Efectivo;
 import org.example.Pago.MetodoPago;
 import org.example.Pago.Yape;
-import org.example.Repository.ConexionBD;
 
 import java.util.ArrayList;
 import java.util.List;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-        if(ConexionBD.getConexion() != null){
-            System.out.println("Conectado correctamente");
-        }
 
         CanalVenta local = new Local();
         CanalVenta delivery = new Delivery();
