@@ -1,4 +1,4 @@
 package org.example.Notificaciones;
 
-public class Correo {
+public class Correo implements Notificacion{
 }

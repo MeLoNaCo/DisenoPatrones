@@ -1,4 +1,4 @@
 package org.example.Notificaciones;
 
-public class WhatsApp {
+public class WhatsApp implements Notificacion{
 }
